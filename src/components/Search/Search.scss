@@ -1,0 +1,19 @@
+.main__search {
+    margin-top: 130px;
+
+    &-input {
+        background: #FFFFFF;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        padding: 20px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        color: #141414;
+        width: 100%;
+        &::placeholder{
+            color: #141414; 
+        }
+    }
+}
